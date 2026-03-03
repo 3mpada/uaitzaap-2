@@ -11,6 +11,7 @@
       <header>
         <h1>Zapzinho Básico</h1>
         <p>Chat sem login e sem segurança (bem simples).</p>
+        <div id="connection-status" class="status" aria-live="polite"></div>
       </header>
 
       <section class="setup" id="setup">
@@ -26,6 +27,10 @@
         <small>
           Dica: combine o mesmo nome de sala com seu amigo para conversar.
         </small>
+        <div class="rooms-box">
+          <strong>Salas criadas</strong>
+          <ul id="rooms-list" class="rooms-list" aria-live="polite"></ul>
+        </div>
       </section>
 
       <section class="chat hidden" id="chat">
