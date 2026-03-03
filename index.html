@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zapzinho Básico</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header>
+        <h1>Zapzinho Básico</h1>
+        <p>Chat sem login e sem segurança (bem simples).</p>
+      </header>
+
+      <section class="setup" id="setup">
+        <label>
+          Seu nome
+          <input id="nickname" maxlength="24" placeholder="Ex.: João" />
+        </label>
+        <label>
+          Sala
+          <input id="room" maxlength="40" placeholder="Ex.: amizade" />
+        </label>
+        <button id="join">Entrar no chat</button>
+        <small>
+          Dica: combine o mesmo nome de sala com seu amigo para conversar.
+        </small>
+      </section>
+
+      <section class="chat hidden" id="chat">
+        <div class="chat-head">
+          <strong id="room-name"></strong>
+          <button id="leave" class="secondary">Trocar sala</button>
+        </div>
+
+        <ul id="messages" class="messages" aria-live="polite"></ul>
+
+        <form id="composer" class="composer">
+          <input id="message" maxlength="400" autocomplete="off" placeholder="Digite sua mensagem..." required />
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/gun/gun.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
