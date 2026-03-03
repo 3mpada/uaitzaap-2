@@ -127,3 +127,47 @@ button.secondary {
 small {
   color: var(--muted);
 }
+
+.status {
+  margin: 0.5rem 0 0.8rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.status.ok {
+  color: #3fb950;
+}
+
+.status.warn {
+  color: #f2cc60;
+}
+
+.rooms-box {
+  background: #0f141b;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 0.75rem;
+}
+
+.rooms-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.6rem 0 0;
+  padding: 0;
+}
+
+.room-pill {
+  background: #1f2630;
+  border: 1px solid #30363d;
+  color: var(--text);
+  border-radius: 999px;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.85rem;
+}
+
+.rooms-empty {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
