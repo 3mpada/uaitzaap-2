@@ -8,6 +8,9 @@ Um chat **bem simples**, sem login e sem segurança, para conversar em uma sala 
 2. Escolha um nome e uma sala.
 3. Seu amigo entra com outro nome e **a mesma sala**.
 4. Pronto, já podem trocar mensagens.
+5. A lista "Salas criadas" mostra salas existentes; clique em uma para preencher rápido.
+
+> Se aparecer aviso de conexão no topo, espere alguns segundos até conectar no relay.
 
 ## Rodar localmente
 
