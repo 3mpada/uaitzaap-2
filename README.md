@@ -21,25 +21,6 @@ python3 -m http.server 8080
 
 Depois acesse `http://localhost:8080`.
 
-## Como colocar no GitHub (passo a passo)
-
-No terminal, dentro da pasta do projeto:
-
-```bash
-git init
-git add .
-git commit -m "primeiro commit"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/NOME-DO-REPO.git
-git push -u origin main
-```
-
-Depois no GitHub:
-
-1. Crie um repositório vazio (sem README inicial).
-2. Use a URL dele no comando `git remote add origin ...`.
-3. Após o `git push`, confirme que os arquivos apareceram no repo.
-
 ## Publicar no GitHub Pages
 
 1. Vá em **Settings > Pages**.
